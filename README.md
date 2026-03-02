@@ -3,10 +3,15 @@ Servidor HTTP escrito en Go desde cero (sin usar net/http) que implementa un Ser
 Challenges: 
 
 Estilos y CSS — La página tiene estilos propios con tabla formateada y botones.
+
 Barra de progreso — Cada serie muestra una barra <progress> con los episodios vistos vs el total.
+
 Marcar serie completa — Si el episodio actual es igual al total, se muestra el texto "Completa" en verde.
+
 Botón -1 — Además del botón +1, hay un botón -1 para decrementar el episodio actual.
+
 Función para eliminar serie — Botón de eliminar que usa el método HTTP DELETE.
+
 Validación en servidor — El servidor valida que los campos no estén vacíos y que los números sean válidos antes de insertar.
 
 Screenshot
